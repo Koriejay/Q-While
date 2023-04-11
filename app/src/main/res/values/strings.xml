@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">QiT</string>
+
+    <string name="queue_created_message">Your have been added to the queue. Please check My Queues in the Account tab.</string>
+    <string name="close">Close</string>
+
+    <string name="error_404">We are currently working on our website. Please bear with us.</string>
+    <string name="back">Back</string>
+
+    <string name="log_into_your_account">Log into \nyour account</string>
+    <string name="email_address_or_username">Email address or Username</string>
+    <string name="password">Password</string>
+    <string name="or">or</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up"> Sign Up</string>
+
+    <string name="welcome_to_QiT">Welcome to QiT</string>
+    <string name="please_select_the_options_below">Please select your options below</string>
+    <string name="branch">Branch:</string>
+    <string name="service">Service:</string>
+    <string name="time">Time:</string>
+    <string name="submit">Submit</string>
+    <string name="login">Login</string>
+
+    <string name="your_ticket_number_is">Your Ticket Number is:</string>
+    <string name="qr">qr</string>
+
+    <string name="signup">Sign Up</string>
+    <string name="telephone_number">Telephone Number</string>
+    <string name="p_assword">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="create_a_new_account">Create a new account</string>
+
+    <string name="logo">logo</string>
+    <string name="item">Item</string>
+    <string name="iconz">iconz</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="mahmoud_mohammed">Mahmoud Mohammed</string>
+    <string name="emailaddress">Email Address</string>
+    <string name="change_email">Change Email</string>
+    <string name="mohammed123_gmail_com">mohammed123@gmail.com</string>
+    <string name="z">Telephone Number</string>
+    <string name="_254_729876543">+254 729876543</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="backz">Back</string>
+
+    <string name="settings">Settings</string>
+    <string name="theme">Theme</string>
+    <string name="backup">Backup</string>
+    <string name="notifications">Notifications</string>
+    <string name="data_usage">Data Usage</string>
+    <string name="storage_usage">Storage Usage</string>
+    <string name="account_settings">Account Settings</string>
+
+    <string name="scanqr">scanQR</string>
+    <string name="home">Home</string>
+    <string name="profile">Account</string>
+
+    <string name="backaz">Back</string>
+    <string name="profpic">Profpic</string>
+    <string name="light_mode">Light Theme</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="preference_file_key">pref</string>
+    <string name="is_logged_in_key">isloggedin</string>
+    <string name="is_logged_in">islogged</string>
+
+</resources>

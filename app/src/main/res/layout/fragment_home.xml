@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/hm_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="55dp"
+        android:text="@string/welcome_to_QiT"
+        android:textColor="@color/app_theme"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sel_items"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_below="@+id/hm_logo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:textSize="20sp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="38dp"
+        android:text="@string/please_select_the_options_below"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/sp_branch"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/tvBranch"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/edt_texts"
+        android:padding="15sp"
+        android:textColorHint="@color/black" />
+
+    <Spinner
+        android:id="@+id/sp_service"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/tvService"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="46dp"
+        android:background="@drawable/edt_texts"
+        android:padding="15sp"
+        android:textColorHint="@color/black" />
+
+    <Spinner
+        android:id="@+id/sp_time"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/tvTime"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/edt_texts"
+        android:padding="15sp"
+        android:textColorHint="@color/black" />
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sp_time"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="@color/app_theme"
+        android:textAllCaps="false"
+        android:textColor="@color/card_theme"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/submit" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleLarge"
+        android:indeterminate="true"/>
+
+    <TextView
+        android:id="@+id/tvBranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sel_items"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="236dp"
+        android:text="Select Branch" />
+
+    <TextView
+        android:id="@+id/tvService"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sp_branch"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="224dp"
+        android:text="Select Service"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sp_service"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="211dp"
+        android:text="Select Time:"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+
+</RelativeLayout>

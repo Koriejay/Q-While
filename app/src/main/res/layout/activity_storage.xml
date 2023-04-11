@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".storage">
+
+    <ImageView
+        android:id="@+id/back_arrow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/backz"
+        android:src="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back_arrow"
+        android:textColor="@color/app_theme"
+        android:layout_centerInParent="true"
+        android:text="App Storage Usage"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/total_storage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="16dp"
+        android:text="Total storage used: 56.24MB"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/app_data_storage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_storage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="16dp"
+        android:text="App data: 0.3 GB"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cache_storage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_data_storage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="16dp"
+        android:text="Cache: 0.1 GB"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cache_storage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="63dp"
+        android:text="Clear Data and Cache"
+        android:backgroundTint="@color/app_theme"
+        android:textSize="16sp" />
+
+</RelativeLayout>

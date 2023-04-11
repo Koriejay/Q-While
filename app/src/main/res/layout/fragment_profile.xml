@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:backgroundTint="@color/card_theme"
+    tools:context=".ProfileFragment">
+
+    <ListView
+        android:id="@+id/ltv"
+        android:paddingStart="40sp"
+        android:backgroundTint="@color/card_theme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/badge_background"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="10sp"
+        android:minWidth="20dp"
+        android:padding="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+
+</RelativeLayout>

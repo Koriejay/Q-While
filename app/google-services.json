@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "163957740458",
+    "project_id": "oqueue-ca500",
+    "storage_bucket": "oqueue-ca500.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163957740458:android:7638739a4c548506ead1d3",
+        "android_client_info": {
+          "package_name": "com.example.oqueue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163957740458-k0hr0518bmil33bge1p8bs7cgr7jqfkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oqueue",
+            "certificate_hash": "4b0131068c548711951552f83695a0a8612be311"
+          }
+        },
+        {
+          "client_id": "163957740458-i0v61bg37gbijakqguesseirqu5l01ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPyUGJvVOSUv8f5jDpNjfbaszlWW3_Bgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163957740458-i0v61bg37gbijakqguesseirqu5l01ja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
